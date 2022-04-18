@@ -45,7 +45,7 @@ public class DFS  {
                         while (i <= number_of_nodes) {
 				if (adjacency_matrix[element][i] == 1 && visited[i] == 0) {
 					stack.push(i);
-					visited[i] = 1;
+					visited[i] = 1; 
 					element = i;
 					i = 1;
 					System.out.print(element + "\t");
